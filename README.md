@@ -50,3 +50,7 @@ The example above is intentionally minimal. A few things to wire up for real use
 - **Creator Lifecycle Email Templates:** By default mail goes through a **shared** verified sender — fine for tests, but generic From, limited volume, and shared reputation hurt inbox placement.
 - **Creator Lifecycle Email Templates:** For production, verify **your own** domain: ``POST /v1/email/domain/verify`` with ``{"domain":"mail.yourco.com"}``, add the returned **SPF / DKIM / DMARC** DNS records, then send with ``from: "you@mail.yourco.com"``.
 - **Creator Lifecycle Email Templates:** Use a dedicated subdomain and **warm it up** (ramp volume over days) to protect deliverability.
+
+## Further reading
+
+- [Implementing a Cheaper Resend Alternative (GDPR Custom-Domain Order Email)](docs/implementing-a-cheaper-resend-alternative-gdpr-cu-1t46w6.md)
