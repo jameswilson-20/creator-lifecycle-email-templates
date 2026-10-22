@@ -53,4 +53,5 @@ The example above is intentionally minimal. A few things to wire up for real use
 
 ## Further reading
 
+- [Email Deliverability: Postgres Templates, Suppressions, and Polling for Transactional Mail](docs/email-deliverability-postgres-templates-suppressi-1exgxk.md)
 - [Implementing a Cheaper Resend Alternative (GDPR Custom-Domain Order Email)](docs/implementing-a-cheaper-resend-alternative-gdpr-cu-1t46w6.md)
