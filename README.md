@@ -55,3 +55,7 @@ This sample is deliberately minimal. Before it touches real inboxes you need a f
 
 **Do I need anything besides `INFRAI_API_KEY`?**  
 No, just `npx tsx` and the key. `src/infrai.ts` wraps `email.template.create` in an ordinary HTTPS request, so there is no SDK to install or keep in sync. For a creator lifecycle mail example that is the entire dependency story.
+
+## Further reading
+
+- [Signup Email Response Timeouts: Preserve Template Ownership Across Provider Handoffs](docs/signup-email-response-timeouts-preserve-template-fyi7wi.md)
